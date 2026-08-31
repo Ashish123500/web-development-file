@@ -1,2 +1,2 @@
-# web-development-file
+# web-development-project
 this is my first ever repository i have created
