@@ -9,7 +9,7 @@ header{
     height: 80px;
     width: 100vw;
 }
-img{
+#logoimg{
     height: 50px;
 }
 span{
@@ -61,7 +61,7 @@ a{
     position: relative;
     left: 50px;
     bottom: 12px;
-    
+    z-index: 2;
 }
 .input1{
     height: 30px;
@@ -73,8 +73,8 @@ a{
     box-shadow: 3px 3px 5px grey;
     border: none;
 }
-main{
-    height:800px;
+.input1:focus{
+    outline: none;
 }
 .container{
     display: flex;
@@ -163,6 +163,7 @@ margin-left: 10px;
 i:hover{
     opacity: 0.5;
 }
+
 @media only screen and (max-width:450px){
 
     .container{
@@ -177,9 +178,100 @@ i:hover{
     }
     
 }
+#img1{
+    margin: 30px;
+    width: 500px;
+    border-radius: 10px;
     
+    
+}
+.section1{
+    
+    border-radius: 10px;
+    margin: 30px;
+    
+}
+.first-section{
+    display: flex;
+}
+.first-section-p{
+    margin-top: 30px;
+    width: 500px;
+    text-align:left;
 
+}
+.section2{
+    display: flex;
+    justify-content: center;
+}
+.second-section{
+    
+    width: 80vw;
 
+}
+.second-section-container{
+     
+     display:flex;
+     justify-content: space-evenly;
+     
+}
+.item{
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 15px;
+    height: 250px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-
-
+    overflow: auto;
+}
+h2{
+   margin: 15px;
+}
+h3{
+    text-align: center;
+}
+.last-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.last-section1{
+    width: 80vw;
+}
+.last-section-p{
+    text-align: left;
+    margin-top: 10px;
+}
+.last-section-h2{
+    text-align: left;
+    margin-left: 0px;
+}
+.sidebar{
+    
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: rgba(183, 181, 181, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.sidebar-item{
+    width: 150px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: rgba(183, 181, 181, 0.3);
+    border: none;
+    color: black;
+}
+.sidebar-item:hover{
+    background-color: rgba(183, 181, 181, 0.6);
+}
+.button-span{
+    font-size: 10px;
+    bottom: 0px;
+    
+}
