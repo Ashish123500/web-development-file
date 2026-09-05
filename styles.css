@@ -107,6 +107,7 @@ footer{
     border: 2px solid;
     padding:25px;
     background-color: black;
+    width: 100vw;
 }
 .footer-li{
     list-style: none;
@@ -179,6 +180,7 @@ i:hover{
 }
 .first-section{
     display: flex;
+    flex-wrap: wrap;
 }
 .first-section-p{
     margin-top: 30px;
@@ -260,7 +262,44 @@ h3{
 .button-span{
     font-size: 10px;
     bottom: 0px;
+}
     
+
+@media only screen and (max-width:1024px){
+    
+    .img1{
+        width:80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar{
+        display: none;
+    }
+    .second-section-container{
+        display: flex;
+        
+    
+    }
+    .item{
+        width: 120px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .first-section{
+        justify-content: center;
+    }
+    .sidebar{
+        margin-left: 20px;
+        margin-top: 20px;
+        height:350px;
+        
+    }
+    .box4{
+        margin-top: 25px;
+    }
 }
 @media only screen and (max-width:450px){
 
@@ -295,7 +334,7 @@ h3{
         align-items: center;
     }
     .img1{
-        width: 350px;
+        width:80vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -309,5 +348,15 @@ h3{
     }
     .sidebar{
         height:350px;
+    }
+    footer{
+       width:100vw;
+    }
+    .input1{
+        height: 25px;
+        width: 150px;
+    }
+    .item{
+        width: 200px;
     }
 }
