@@ -164,21 +164,7 @@ i:hover{
     opacity: 0.5;
 }
 
-@media only screen and (max-width:450px){
-
-    .container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 15px;
-    }
-    .container1{
-        display: flex;
-        flex-direction: column;
-        row-gap: 10px;
-    }
-    
-}
-#img1{
+.img1{
     margin: 30px;
     width: 500px;
     border-radius: 10px;
@@ -258,6 +244,7 @@ h3{
     flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
+    
 }
 .sidebar-item{
     width: 150px;
@@ -274,4 +261,53 @@ h3{
     font-size: 10px;
     bottom: 0px;
     
+}
+@media only screen and (max-width:450px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebar{
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .second-section-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img1{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first-section-p{
+        width:100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .navbar{
+        display: none;
+    }
+    .sidebar{
+        height:350px;
+    }
 }
