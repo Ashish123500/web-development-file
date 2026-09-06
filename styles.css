@@ -8,7 +8,7 @@
 header {
 
     height: 80px;
-    width: 100vw;
+    width: 100%;
 }
 
 #logoimg {
@@ -124,7 +124,7 @@ footer {
     border: 2px solid;
     padding: 25px;
     background-color: black;
-    width: 100vw;
+    width: 100%;
 }
 
 .footer-li {
