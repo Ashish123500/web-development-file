@@ -124,7 +124,7 @@ h4::before {
 footer {
     border: 2px solid;
     padding: 25px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 100%;
 }
 
